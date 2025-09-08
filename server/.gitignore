@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# local env files
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
+# Server specific
+logs/
+*.log
+coverage/
+.nyc_output
+dump.rdb
+*.pid
+
+# Database files (if any)
+*.sqlite
+*.db
+
+# Uploads directory (if any)
+uploads/
+temp/
